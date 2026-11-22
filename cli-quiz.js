@@ -36,7 +36,6 @@ function askQuestion() {
   const current = questions[index];
   console.log(`Q${index + 1}. ${current.q}`);
   current.options.forEach((opt) => console.log(opt));
-
   rl.question("\nYour answer (1-4): ", (input) => {
     const choice = Number(input.trim());
     if (choice >= 1 && choice <= 4) {
