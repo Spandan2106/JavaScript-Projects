@@ -4,7 +4,6 @@ const readline = require("readline");
 const file = path.join(__dirname, "notes.json");
 let notes = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : [];
 const save = () => fs.writeFileSync(file, JSON.stringify(notes, null, 2));
-
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
