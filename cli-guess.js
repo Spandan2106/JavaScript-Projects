@@ -3,7 +3,6 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-
 const target = Math.floor(Math.random() * 100) + 1;
 let attempts = 0;
 
