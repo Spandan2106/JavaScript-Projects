@@ -69,7 +69,6 @@ function handleChoice(choice) {
       console.log("Goodbye!");
       rl.close();
       break;
-
     default:
       console.log("Invalid option.");
       showMenu();
