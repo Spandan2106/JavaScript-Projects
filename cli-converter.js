@@ -3,7 +3,6 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-
 function showMenu() {
   console.log("\n=== CLI Unit Converter ===");
   console.log("1. Kilometers to Miles");
