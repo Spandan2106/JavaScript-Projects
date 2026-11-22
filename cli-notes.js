@@ -8,7 +8,6 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-
 function showMenu() {
   console.log("\n=== CLI Note Taker ===");
   console.log("1. View notes");
