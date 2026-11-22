@@ -14,7 +14,6 @@ function askGuess() {
       console.log("Please enter a valid whole number between 1 and 100.\n");
       return askGuess();
     }
-
     attempts += 1;
 
     if (guess < target) {
