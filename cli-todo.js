@@ -39,7 +39,6 @@ function handleChoice(choice) {
         showMenu();
       });
       break;
-
     case "3":
       rl.question("Enter task number to toggle: ", (num) => {
         const idx = Number(num) - 1;
