@@ -47,7 +47,6 @@ function handleChoice(choice) {
         });
       });
       break;
-
     case "3":
       rl.question("Enter search keyword: ", (keyword) => {
         const q = keyword.trim().toLowerCase();
