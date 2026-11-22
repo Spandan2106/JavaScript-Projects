@@ -29,7 +29,6 @@ function handleChoice(choice) {
       }
       showMenu();
       break;
-
     case "2":
       rl.question("Enter task title: ", (title) => {
         if (title.trim()) {
