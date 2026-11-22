@@ -74,5 +74,4 @@ function handleChoice(choice) {
       showMenu();
   }
 }
-
 showMenu();
