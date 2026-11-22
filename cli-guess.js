@@ -15,7 +15,6 @@ function askGuess() {
       return askGuess();
     }
     attempts += 1;
-
     if (guess < target) {
       console.log("Too low! Try again.\n");
       askGuess();
