@@ -3,7 +3,6 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-
 const questions = [
   {
     q: "Which method converts a JSON string into a JavaScript object?",
