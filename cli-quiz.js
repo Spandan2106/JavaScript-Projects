@@ -52,5 +52,4 @@ function askQuestion() {
     askQuestion();
   });
 }
-
 askQuestion();
