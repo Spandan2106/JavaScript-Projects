@@ -4,7 +4,6 @@ const readline = require("readline");
 const file = path.join(__dirname, "tasks.json");
 let tasks = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : [];
 const save = () => fs.writeFileSync(file, JSON.stringify(tasks, null, 2));
-
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
