@@ -25,7 +25,6 @@ const questions = [
     answer: 1,
   },
 ];
-
 let index = 0;
 let score = 0;
 
