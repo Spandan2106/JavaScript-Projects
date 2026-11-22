@@ -76,7 +76,6 @@ function handleChoice(choice) {
         showMenu();
       });
       break;
-
     case "5":
       console.log("Goodbye!");
       rl.close();
