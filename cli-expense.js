@@ -50,7 +50,6 @@ function handleChoice(choice) {
         });
       });
       break;
-
     case "3": {
       const total = expenses.reduce((sum, item) => sum + item.amount, 0);
       console.log(`Total spent: ${total.toFixed(2)}`);
