@@ -14,7 +14,6 @@ function showMenu() {
   console.log("7. Exit");
   rl.question("\nChoose an option: ", handleChoice);
 }
-
 function convertValue(promptText, converterFn) {
   rl.question(promptText, (input) => {
     const val = Number(input.trim());
