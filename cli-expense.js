@@ -31,7 +31,6 @@ function handleChoice(choice) {
       }
       showMenu();
       break;
-
     case "2":
       rl.question("Enter expense label: ", (label) => {
         if (!label.trim()) {
