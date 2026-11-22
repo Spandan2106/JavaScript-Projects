@@ -5,7 +5,6 @@ const rl = readline.createInterface({
 });
 const target = Math.floor(Math.random() * 100) + 1;
 let attempts = 0;
-
 console.log("=== CLI Number Guessing Game ===");
 console.log("Guess a number between 1 and 100.\n");
 
