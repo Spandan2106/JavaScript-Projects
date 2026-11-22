@@ -25,7 +25,6 @@ function convertValue(promptText, converterFn) {
     showMenu();
   });
 }
-
 function handleChoice(choice) {
   switch (choice.trim()) {
     case "1":
