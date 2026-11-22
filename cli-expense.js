@@ -56,7 +56,6 @@ function handleChoice(choice) {
       showMenu();
       break;
     }
-
     case "4":
       rl.question("Enter expense number to delete: ", (num) => {
         const idx = Number(num) - 1;
