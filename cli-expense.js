@@ -19,7 +19,6 @@ function showMenu() {
   console.log("5. Exit");
   rl.question("\nChoose an option: ", handleChoice);
 }
-
 function handleChoice(choice) {
   switch (choice.trim()) {
     case "1":
