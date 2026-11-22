@@ -27,7 +27,6 @@ const questions = [
 ];
 let index = 0;
 let score = 0;
-
 console.log("=== CLI JavaScript Quiz ===\n");
 
 function askQuestion() {
