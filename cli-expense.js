@@ -6,7 +6,6 @@ let expenses = fs.existsSync(file)
   ? JSON.parse(fs.readFileSync(file, "utf8"))
   : [];
 const save = () => fs.writeFileSync(file, JSON.stringify(expenses, null, 2));
-
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
