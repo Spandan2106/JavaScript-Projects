@@ -28,7 +28,6 @@ const questions = [
 let index = 0;
 let score = 0;
 console.log("=== CLI JavaScript Quiz ===\n");
-
 function askQuestion() {
   if (index >= questions.length) {
     console.log(`\nQuiz finished! Your score: ${score}/${questions.length}`);
