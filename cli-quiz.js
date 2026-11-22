@@ -33,7 +33,6 @@ function askQuestion() {
     console.log(`\nQuiz finished! Your score: ${score}/${questions.length}`);
     return rl.close();
   }
-
   const current = questions[index];
   console.log(`Q${index + 1}. ${current.q}`);
   current.options.forEach((opt) => console.log(opt));
