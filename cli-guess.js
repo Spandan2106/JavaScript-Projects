@@ -27,5 +27,4 @@ function askGuess() {
     }
   });
 }
-
 askGuess();
