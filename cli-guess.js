@@ -10,7 +10,6 @@ console.log("Guess a number between 1 and 100.\n");
 function askGuess() {
   rl.question("Enter your guess: ", (input) => {
     const guess = Number(input.trim());
-
     if (!Number.isInteger(guess) || guess < 1 || guess > 100) {
       console.log("Please enter a valid whole number between 1 and 100.\n");
       return askGuess();
