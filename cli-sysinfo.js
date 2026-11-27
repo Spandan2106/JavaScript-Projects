@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 const os = require('os');
-
 const toGB = (bytes) => (bytes / (1024 ** 3)).toFixed(2);
 const formatUptime = (seconds) => {
   const hrs = Math.floor(seconds / 3600);
