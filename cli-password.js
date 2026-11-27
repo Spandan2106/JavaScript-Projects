@@ -42,7 +42,6 @@ function checkStrength(password) {
     hasDigit: /[0-9]/.test(password),
     hasSymbol: /[^A-Za-z0-9]/.test(password),
   };
-
   const score = Object.values(checks).filter(Boolean).length;
   let label = "Weak";
   if (score >= 5) label = "Strong";
