@@ -68,7 +68,6 @@ async function main() {
     console.log("2. Check password strength");
 
     const choice = (await rl.question("\nChoose an option (1 or 2): ")).trim();
-
     if (choice === "1") {
       const lenInput = (await rl.question("Password length (default 16): ")).trim();
       const length = lenInput ? Number.parseInt(lenInput, 10) : 16;
