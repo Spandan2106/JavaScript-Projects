@@ -61,7 +61,6 @@ function checkStrength(password) {
 
 async function main() {
   const rl = readline.createInterface({ input, output });
-
   try {
     console.log("=== CLI Password Generator & Strength Checker ===");
     console.log("1. Generate password");
