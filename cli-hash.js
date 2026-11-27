@@ -9,7 +9,6 @@ if (!input) {
 try {
   const hash = crypto.createHash(algo);
   let sourceType = 'String';
-
   if (fs.existsSync(input) && fs.statSync(input).isFile()) {
     const fileBuffer = fs.readFileSync(input);
     hash.update(fileBuffer);
