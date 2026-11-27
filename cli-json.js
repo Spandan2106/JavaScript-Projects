@@ -14,7 +14,6 @@ function sortKeysDeep(value) {
   }
   return value;
 }
-
 function parseArgs(argv) {
   const args = argv.slice(2);
   let filePath = null;
