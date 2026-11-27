@@ -20,7 +20,6 @@ try {
   } else {
     hash.update(input);
   }
-
   console.log(`Source    : ${sourceType}`);
   console.log(`Algorithm : ${algo.toUpperCase()}`);
   console.log(`Hash      : ${hash.digest('hex')}`);
