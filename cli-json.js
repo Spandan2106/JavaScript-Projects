@@ -21,7 +21,6 @@ function parseArgs(argv) {
   let spaces = 2;
   let sortKeys = false;
   let validateOnly = false;
-
   for (let i = 0; i < args.length; i++) {
     const arg = args[i];
     if (arg === "--out" || arg === "-o") {
