@@ -28,7 +28,6 @@ function generatePassword(length = 16, options = { upper: true, lower: true, dig
     const idx = crypto.randomInt(0, pool.length);
     result.push(pool[idx]);
   }
-
   // Fisher-Yates shuffle using cryptographically strong randomness
   for (let i = result.length - 1; i > 0; i--) {
     const j = crypto.randomInt(0, i + 1);
