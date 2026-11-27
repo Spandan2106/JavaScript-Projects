@@ -77,7 +77,6 @@ async function main() {
         console.log("Please enter a valid number between 4 and 128.");
         return;
       }
-
       const password = generatePassword(length);
       const strength = checkStrength(password);
       console.log(`\nGenerated Password: ${password}`);
