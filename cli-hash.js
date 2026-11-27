@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const crypto = require('crypto');
 const fs = require('fs');
-
 const [input, algo = 'sha256'] = process.argv.slice(2);
 
 if (!input) {
