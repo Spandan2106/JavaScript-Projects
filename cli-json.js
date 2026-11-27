@@ -63,7 +63,6 @@ async function main() {
     if (sortKeys) {
       parsed = sortKeysDeep(parsed);
     }
-
     if (validateOnly) {
       console.log(`Valid JSON: ${resolvedInput}`);
       return;
