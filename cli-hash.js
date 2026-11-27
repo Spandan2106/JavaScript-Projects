@@ -2,7 +2,6 @@
 const crypto = require('crypto');
 const fs = require('fs');
 const [input, algo = 'sha256'] = process.argv.slice(2);
-
 if (!input) {
   console.error('Usage: node cli-hash.js <file-path-or-text> [algorithm: sha256|md5|sha512]');
   process.exit(1);
