@@ -48,7 +48,6 @@ async function main() {
     process.exitCode = 1;
     return;
   }
-
   const resolvedInput = path.resolve(filePath);
   try {
     const raw = await fs.readFile(resolvedInput, "utf8");
