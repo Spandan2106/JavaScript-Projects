@@ -31,7 +31,6 @@ function generatePassword(length = 16, options = { upper: true, lower: true, dig
     const j = crypto.randomInt(0, i + 1);
     [result[i], result[j]] = [result[j], result[i]];
   }
-
   return result.join("");
 }
 function checkStrength(password) {
