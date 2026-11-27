@@ -67,7 +67,6 @@ async function main() {
       console.log(`Valid JSON: ${resolvedInput}`);
       return;
     }
-
     const formatted = `${JSON.stringify(parsed, null, spaces)}\n`;
     if (outputPath) {
       const resolvedOutput = path.resolve(outputPath);
