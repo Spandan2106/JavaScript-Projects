@@ -69,7 +69,6 @@ async function main() {
     }
 
     const formatted = `${JSON.stringify(parsed, null, spaces)}\n`;
-
     if (outputPath) {
       const resolvedOutput = path.resolve(outputPath);
       await fs.writeFile(resolvedOutput, formatted, "utf8");
