@@ -10,7 +10,6 @@ const CHAR_SETS = {
 function generatePassword(length = 16, options = { upper: true, lower: true, digits: true, symbols: true }) {
   let pool = "";
   const guaranteed = [];
-
   for (const [key, chars] of Object.entries(CHAR_SETS)) {
     if (options[key]) {
       pool += chars;
