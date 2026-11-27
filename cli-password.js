@@ -7,7 +7,6 @@ const CHAR_SETS = {
   digits: "0123456789",
   symbols: "!@#$%^&*()-_=+[]{}|;:,.<>?",
 };
-
 function generatePassword(length = 16, options = { upper: true, lower: true, digits: true, symbols: true }) {
   let pool = "";
   const guaranteed = [];
