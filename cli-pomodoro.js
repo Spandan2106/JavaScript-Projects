@@ -7,7 +7,6 @@ if (isNaN(minutes) || minutes <= 0) {
   process.exit(1);
 }
 let remainingSeconds = minutes * 60;
-
 console.log(`Starting "${label}" for ${minutes} minute(s)... (Press Ctrl+C to stop)\n`);
 
 const formatTime = (secs) => {
