@@ -86,7 +86,6 @@ async function main() {
     } else if (choice === "2") {
       const pwd = await rl.question("Enter password to check: ");
       const strength = checkStrength(pwd);
-
       console.log(`\nStrength: ${strength.label} (${strength.score}/5)`);
       console.log(`- Length >= 12: ${strength.checks.minLength ? "Yes" : "No"}`);
       console.log(`- Uppercase:    ${strength.checks.hasUpper ? "Yes" : "No"}`);
