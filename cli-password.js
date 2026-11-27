@@ -80,7 +80,6 @@ async function main() {
 
       const password = generatePassword(length);
       const strength = checkStrength(password);
-
       console.log(`\nGenerated Password: ${password}`);
       console.log(`Strength: ${strength.label} (${strength.score}/5)`);
     } else if (choice === "2") {
