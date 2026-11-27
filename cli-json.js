@@ -38,7 +38,6 @@ function parseArgs(argv) {
       filePath = arg;
     }
   }
-
   return { filePath, outputPath, spaces, sortKeys, validateOnly };
 }
 
