@@ -40,7 +40,6 @@ function parseArgs(argv) {
   }
   return { filePath, outputPath, spaces, sortKeys, validateOnly };
 }
-
 async function main() {
   const { filePath, outputPath, spaces, sortKeys, validateOnly } = parseArgs(process.argv);
 
