@@ -6,7 +6,6 @@ if (isNaN(minutes) || minutes <= 0) {
   console.error('Usage: node cli-pomodoro.js [minutes] [label]');
   process.exit(1);
 }
-
 let remainingSeconds = minutes * 60;
 
 console.log(`Starting "${label}" for ${minutes} minute(s)... (Press Ctrl+C to stop)\n`);
