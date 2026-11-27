@@ -21,7 +21,6 @@ for (const name of Object.keys(nets)) {
     }
   }
 }
-
 console.log('=== System Information ===');
 console.log(`OS Platform : ${os.type()} (${os.release()}) [${os.arch()}]`);
 console.log(`Hostname    : ${os.hostname()}`);
