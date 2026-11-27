@@ -17,7 +17,6 @@ function generatePassword(length = 16, options = { upper: true, lower: true, dig
       guaranteed.push(chars[idx]);
     }
   }
-
   if (!pool) {
     throw new Error("At least one character set must be enabled.");
   }
