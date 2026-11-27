@@ -6,7 +6,6 @@ const formatUptime = (seconds) => {
   const mins = Math.floor((seconds % 3600) / 60);
   return `${hrs}h ${mins}m`;
 };
-
 const totalMem = os.totalmem();
 const freeMem = os.freemem();
 const usedMem = totalMem - freeMem;
