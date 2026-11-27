@@ -45,7 +45,6 @@ function checkStrength(password) {
   let label = "Weak";
   if (score >= 5) label = "Strong";
   else if (score >= 3) label = "Medium";
-
   return { label, score, checks };
 }
 async function main() {
