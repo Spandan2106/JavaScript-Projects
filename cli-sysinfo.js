@@ -10,7 +10,6 @@ const totalMem = os.totalmem();
 const freeMem = os.freemem();
 const usedMem = totalMem - freeMem;
 const cpus = os.cpus();
-
 const nets = os.networkInterfaces();
 let localIP = 'Unavailable';
 for (const name of Object.keys(nets)) {
