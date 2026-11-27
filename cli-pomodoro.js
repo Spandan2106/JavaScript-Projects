@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 const args = process.argv.slice(2);
 const minutes = parseInt(args[0], 10) || 25;
 const label = args[1] || 'Focus Session';
