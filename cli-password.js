@@ -66,7 +66,6 @@ async function main() {
     console.log("=== CLI Password Generator & Strength Checker ===");
     console.log("1. Generate password");
     console.log("2. Check password strength");
-
     const choice = (await rl.question("\nChoose an option (1 or 2): ")).trim();
     if (choice === "1") {
       const lenInput = (await rl.question("Password length (default 16): ")).trim();
