@@ -6,7 +6,6 @@ if (!input) {
   console.error('Usage: node cli-hash.js <file-path-or-text> [algorithm: sha256|md5|sha512]');
   process.exit(1);
 }
-
 try {
   const hash = crypto.createHash(algo);
   let sourceType = 'String';
