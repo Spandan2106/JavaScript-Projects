@@ -34,7 +34,6 @@ function generatePassword(length = 16, options = { upper: true, lower: true, dig
 
   return result.join("");
 }
-
 function checkStrength(password) {
   const checks = {
     minLength: password.length >= 12,
