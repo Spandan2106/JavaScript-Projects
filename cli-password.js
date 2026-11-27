@@ -22,7 +22,6 @@ function generatePassword(length = 16, options = { upper: true, lower: true, dig
   }
   const targetLength = Math.max(length, guaranteed.length);
   const result = [...guaranteed];
-
   while (result.length < targetLength) {
     const idx = crypto.randomInt(0, pool.length);
     result.push(pool[idx]);
