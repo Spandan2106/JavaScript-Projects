@@ -55,7 +55,6 @@ async function main() {
   }
 
   const resolvedInput = path.resolve(filePath);
-
   try {
     const raw = await fs.readFile(resolvedInput, "utf8");
     let parsed = JSON.parse(raw);
