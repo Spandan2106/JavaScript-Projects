@@ -1,7 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
-
 function sortKeysDeep(value) {
   if (Array.isArray(value)) {
     return value.map(sortKeysDeep);
