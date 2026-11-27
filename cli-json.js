@@ -58,7 +58,6 @@ async function main() {
   try {
     const raw = await fs.readFile(resolvedInput, "utf8");
     let parsed = JSON.parse(raw);
-
     if (sortKeys) {
       parsed = sortKeysDeep(parsed);
     }
