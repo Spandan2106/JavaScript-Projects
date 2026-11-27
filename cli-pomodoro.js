@@ -13,7 +13,6 @@ const formatTime = (secs) => {
   const s = String(secs % 60).padStart(2, '0');
   return `${m}:${s}`;
 };
-
 const timer = setInterval(() => {
   process.stdout.write(`\r⏳ Remaining: ${formatTime(remainingSeconds)} `);
   remainingSeconds--;
