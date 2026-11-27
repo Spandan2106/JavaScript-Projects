@@ -8,7 +8,6 @@ if (isNaN(minutes) || minutes <= 0) {
 }
 let remainingSeconds = minutes * 60;
 console.log(`Starting "${label}" for ${minutes} minute(s)... (Press Ctrl+C to stop)\n`);
-
 const formatTime = (secs) => {
   const m = String(Math.floor(secs / 60)).padStart(2, '0');
   const s = String(secs % 60).padStart(2, '0');
