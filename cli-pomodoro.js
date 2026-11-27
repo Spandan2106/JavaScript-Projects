@@ -16,7 +16,6 @@ const formatTime = (secs) => {
 const timer = setInterval(() => {
   process.stdout.write(`\r⏳ Remaining: ${formatTime(remainingSeconds)} `);
   remainingSeconds--;
-
   if (remainingSeconds < 0) {
     clearInterval(timer);
     process.stdout.write('\r✅ Time is up! Take a break.      \n\x07'); // \x07 triggers terminal bell
