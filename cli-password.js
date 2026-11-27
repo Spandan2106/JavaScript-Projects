@@ -48,7 +48,6 @@ function checkStrength(password) {
 
   return { label, score, checks };
 }
-
 async function main() {
   const rl = readline.createInterface({ input, output });
   try {
